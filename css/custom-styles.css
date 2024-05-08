@@ -1,0 +1,184 @@
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  #my-nav {
+    margin: auto;
+  }
+  .left-margin {
+    margin: auto;
+  }
+  .float-gif {
+    float: none;
+    margin: auto;
+  }
+  .row {
+    margin: auto;
+  }
+}
+
+h1 {
+  margin: auto;
+}
+
+.spc-out {
+  margin-top: 125px;
+}
+
+.left-margin {
+  text-align: center;
+  margin: auto;
+}
+
+.figma-icon {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.i-span {
+  margin-right: 20px;
+  padding: 7px 0px;
+}
+
+.i-div {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.hr-fix {
+  margin: 100px auto;
+}
+
+.vid {
+  align-content: center;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.dev-des {
+  /* margin: auto;
+    margin-left: auto;
+    margin-right: auto; */
+  width: 48%;
+  display: block;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.card-ul {
+  text-align: left;
+}
+
+.subheading {
+  margin-top: 30px;
+  /* margin-left: 225px; */
+  text-align: left;
+}
+
+.dev-txt {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.dev-ul {
+  list-style-position: inside;
+  /* margin-left: 225px; */
+  margin: auto;
+  width: 100%;
+  text-align: left;
+}
+
+.black {
+  color: #000;
+}
+
+.blue {
+  color: #05668d;
+}
+
+.icon-color {
+  color: #cdfff9;
+}
+
+.indent {
+  text-indent: 40px;
+}
+
+
+
+#hs {
+  padding: 9px 20px 0px 909px;
+  text-decoration: none;
+  font-size: smaller;
+  font-weight: 500;
+}
+
+#my-bio {
+  width: 60%;
+  margin: auto;
+}
+
+#fixx {
+  margin: auto;
+}
+
+#title-margins {
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+
+#sec-title {
+  margin-bottom: 20px;
+}
+
+#my-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 15%;
+}
+
+#my-footer {
+  background-color: #dee2e6;
+  margin-top: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#adjust {
+  padding: 5px 0px 5px 800px;
+}
+
+#my-nav {
+  margin-top: 0px;
+}
+
+#Det {
+  margin-bottom: 50px;
+}
+
+#Des {
+  margin-bottom: 50px;
+}
+
+#Dev {
+  margin-bottom: 50px;
+}
+
+#C {
+  font-size: larger;
+}
+
+#last {
+  margin: 15px;
+}
+
+#boot {
+  margin-top: 15px;
+  /* margin-bottom: 90px; */
+}
+
+#bs {
+  display: block;
+}
