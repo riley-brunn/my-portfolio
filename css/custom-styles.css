@@ -10,6 +10,38 @@
   }
 }
 
+/* header {
+  height: 47rem;
+  width: 100vw; */
+  /* background: white; */
+  /* background: black; */
+  /* overflow: hidden;
+  position: relative;
+} */
+
+/* #hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  z-index: 0;
+} */
+
+/* header *:not(#hero) {
+  position: relative;
+  z-index: 1;
+  color: white;
+} */
+
+@media screen and (max-width: 640px) {
+  header {
+    height: 65rem;
+  }
+}
+
 #hs {
   text-decoration: none;
   font-size: smaller;
@@ -62,7 +94,7 @@ h1 {
 }
 
 .hr-fix {
-  margin: 100px auto;
+  margin: 10rem auto;
 }
 
 .vid {
