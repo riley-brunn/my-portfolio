@@ -58,6 +58,10 @@
   color: #cdfff9;
 }
 
+.icon-color:hover {
+  color: #80e6da;
+}
+
 h1 {
   margin: auto;
 }
@@ -74,8 +78,13 @@ h1 {
   padding: 0.5rem 0;
 }
 
+.btn:hover {
+  background-color: #054f6c !important;
+  border: black !important;
+}
+
 .spc-out {
-  margin-top: 125px;
+  margin-top: 10rem;
 }
 
 .left-margin {
@@ -95,13 +104,6 @@ h1 {
 
 .hr-fix {
   margin: 10rem auto;
-}
-
-.vid {
-  align-content: center;
-  margin: 20px auto;
-  max-width: 100%;
-  height: auto;
 }
 
 .dev-des {
@@ -138,11 +140,9 @@ h1 {
   color: #05668d;
 }
 
-
 .indent {
   text-indent: 40px;
 }
-
 
 #title-margins {
   margin-top: 80px;
@@ -180,13 +180,26 @@ h1 {
   margin-bottom: 50px;
 }
 
-#C {
-  font-size: larger;
+.i-mr {
+  margin-right: 0.5rem;
 }
 
-#last {
-  margin: 15px;
+.vid {
+  align-content: center;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border: solid 1px black;
 }
+
+#note {
+  margin-top: 1rem;
+}
+
+/* 
+.dev-btn {
+justify-content: center;
+} */
 
 #boot {
   margin-top: 15px;
