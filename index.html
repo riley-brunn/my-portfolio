@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riley Brunn's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/custom-styles.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <link
       rel="stylesheet"
@@ -18,697 +20,699 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <script src="js/bootstrap.js" defer></script>
-    <script src="js/bootstrap.min.js" defer></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
   </head>
 
-  <body style="background-color: #cdfff9" class="lato-regular">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div class="container-fluid">
-        <span class="navbar-brand"> Riley Brunn </span>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navbarNav"
-          data-bs-theme="dark"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#Des">Design</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Dev">Development</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="links/Resume%20-%20Riley%20Brunn.pdf"
-                target="_blank"
-                >Resume</a
-              >
-            </li>
-          </ul>
+  <body class="lato-regular">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <span class="navbar-brand"> Riley Brunn </span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNav"
+            data-bs-theme="dark"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#my-projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="links/Resume%20-%20Riley%20Brunn.pdf"
+                  target="_blank"
+                  >Resume</a
+                >
+              </li>
+            </ul>
 
-          <div class="navbar-nav ms-auto">
-            <a
-              id="hs"
-              class="icon-color"
-              href="https://app.joinhandshake.com/stu/users/45659845"
-              target="_blank"
-              >Handshake</a
-            >
-            <a
-              href="mailto:brunn.riley323@gmail.com"
-              target="_blank"
-              class="i-span icon-color"
-              ><i class="fa-solid fa-envelope fa-2xl"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/riley-brunn/"
-              target="_blank"
-              class="i-span icon-color"
-              ><i class="fa-brands fa-linkedin fa-2xl"></i
-            ></a>
-            <a
-              href="https://github.com/riley-brunn"
-              target="_blank"
-              class="i-span icon-color"
-              ><i class="fa-brands fa-square-github fa-2xl"></i
-            ></a>
+            <div class="navbar-nav ms-auto">
+              <a
+                href="mailto:brunn.riley323@gmail.com"
+                target="_blank"
+                class="i-span icon-color"
+                ><i class="fa-solid fa-envelope fa-2xl"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/riley-brunn/"
+                target="_blank"
+                class="i-span icon-color"
+                ><i class="fa-brands fa-linkedin fa-2xl"></i
+              ></a>
+              <a
+                href="https://github.com/riley-brunn"
+                target="_blank"
+                class="i-span icon-color"
+                ><i class="fa-brands fa-square-github fa-2xl"></i
+              ></a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-
-    <header>
-      <!-- <img src="../img/pexels-george-chambers-413080139-29711945.jpg" id="hero"> -->
-      <h1 id="title-margins" class="left-margin lato-bold">Ux/UI Designer</h1>
-      <h2 id="sec-title" class="left-margin">Front-End Developer</h2>
-      <img src="img/photo-of-me.PNG" id="my-pic" alt="Riley Brunn photo" />
-      <p id="greeting" class="gluten-greeting left-margin">Nice to meet you!</p>
-      <p id="my-bio" class="left-margin text-start indent">
-        I'm Riley, a creative interested in working in the fields of web design
-        and development. While I currently reside in Orlando, I was born and
-        raised on the east coast of Florida. Growing up, I had a dual
-        fascination with both the arts and various scientific disciplines.
-        Cultivating a diverse range of knowledge, I've studied technology,
-        biological sciences, business, and the fine arts throughout my academic
-        career. I have a passion for both the design and technical aspects of
-        web and mobile apps, with a focus on creating fun and interesting
-        visuals. I'm excited to share these passions with others in my future
-        work and career.
-      </p>
+      </nav>
     </header>
 
-    <hr class="hr-fix" />
+    <main>
+      <section>
+        <div class="container text-center">
+          <h1 class="chonburi-regular">UI/UX Designer</h1>
+          <h2 id="sec-title" class="chonburi-regular fs-2">
+            Front-End Developer
+          </h2>
+          <img src="img/photo-of-me.PNG" id="my-pic" alt="Riley Brunn photo" />
+          <p id="greeting" class="lato-bold">Nice to meet you!</p>
+          <p id="my-bio" class="fs-5 text-start indent">
+            I'm Riley, a creative interested in working in the fields of web
+            design and development. While I currently reside in Orlando, I was
+            born and raised on the east coast of Florida. Growing up, I had a
+            dual fascination with both the arts and various scientific
+            disciplines. Cultivating a diverse range of knowledge, I've studied
+            technology, biological sciences, business, and the fine arts
+            throughout my academic career. I have a passion for both the design
+            and technical aspects of web and mobile apps, with a focus on
+            creating fun and interesting visuals. I'm excited to share these
+            passions with others in my future work and career.
+          </p>
+        </div>
+      </section>
 
-    <h2 id="Det" class="left-margin lato-bold">Details</h2>
-    <div class="container text-center">
-      <div class="row row-cols-1 row-cols-lg-2 gx-5 gy-5 w-75 mx-auto">
-        <div class="col">
-          <div class="card p-3 border-primary h-100">
-            <div class="card-body">
-              <i class="fa-solid fa-book fa-2xl blue figma-icon"></i>
-              <h3 class="card-title">Academics</h3>
-              <p class="card-text blue indent">
-                I am currently a Digital Media student at the University of
-                Central Florida. I have studied front-end and back-end
-                development, as well as the design of mobile applications and
-                web interfaces. My work here has also included a strong focus on
-                UI/UX principles and web design.
-              </p>
+      <hr class="hr-fix" />
+
+      <section>
+        <div class="container text-center">
+          <h2 class="chonburi-regular fs-1 mb-5">Details</h2>
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-lg-2 gx-5 gy-5 mx-auto">
+              <div class="col">
+                <div class="card p-3 border-dark h-100">
+                  <div class="card-body">
+                    <i class="fa-solid fa-book fa-2xl blue icon"></i>
+                    <h3 class="card-title lato-bold">Academics</h3>
+                    <p class="card-text blue indent">
+                      I am currently a Digital Media student at the University
+                      of Central Florida. I have studied front-end and back-end
+                      development, as well as the design of mobile applications
+                      and web interfaces. My work here has also included a
+                      strong focus on UI/UX principles and web design.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card p-3 border-dark h-100">
+                  <div class="card-body">
+                    <i class="fa-solid fa-user fa-2xl blue icon"></i>
+                    <h3 class="card-title lato-bold">Soft Skills</h3>
+                    <p class="card-text blue indent">
+                      My strong suites are being creative, helpful, and
+                      empathetic. I am detail-driven, logical, and reliable in
+                      my work. I always make sure to keep an open-mind in order
+                      to see and understand all possibilities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card p-3 border-dark h-100">
+                  <div class="card-body">
+                    <i class="fa-solid fa-globe fa-2xl blue icon"></i>
+                    <h3 class="card-title lato-bold">Experience</h3>
+                    <p class="card-text blue indent">
+                      I've worked and volunteered in a variety of environments
+                      involving collaboration, organization, and communication
+                      skills. These experiences include working as a Web
+                      Development Intern for an LLC, as well as for a small
+                      startup, and being an AI Writing Evaluator.
+                    </p>
+                    <p class="card-text blue indent">
+                      My intern work has included many different
+                      responsibilities, from designing wireframes and visual
+                      mockups to using WordPress to code and build websites.
+                    </p>
+                    <p class="card-text blue indent">
+                      In my university coursework, I have participated in
+                      multiple group projects of varying subjects. One major
+                      project was to create a mobile app concept, which ended as
+                      a visual implementation and hi-fi prototype. Another
+                      significant project was also for a mobile app, and it
+                      involved the full creation process starting with an early
+                      concept and ending with a functional product.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card p-3 border-dark h-100">
+                  <div class="card-body">
+                    <i class="fa-solid fa-computer fa-2xl blue icon"></i>
+                    <h3 class="card-title lato-bold">Hard Skills</h3>
+                    <ul class="card-text blue text-start">
+                      <li class="fw-bold">Languages and Frameworks</li>
+                      <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS, SCSS, SASS</li>
+                        <li>Bootstrap</li>
+                        <li>
+                          Currently learning: React, React Native, Node.js, and
+                          PHP
+                        </li>
+                      </ul>
+                      <li class="fw-bold">UI and Design Tools</li>
+                      <ul>
+                        <li>Figma</li>
+                        <li>Canva</li>
+                        <li>
+                          Currently learning: Adobe Photoshop and Premiere Pro
+                        </li>
+                      </ul>
+                      <li class="fw-bold">
+                        CMS, Database, and Version Control
+                      </li>
+                      <ul>
+                        <li>WordPress</li>
+                        <li>Airtable</li>
+                        <li>Git</li>
+                        <li>Currently learning: MySQL and PostgreSQL</li>
+                      </ul>
+                      <li class="fw-bold">UX, User Flows, and Surveys</li>
+                      <ul>
+                        <li>Lucidchart</li>
+                        <li>Microsoft Visio</li>
+                        <li>SurveyMonkey</li>
+                      </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="col">
-          <div class="card p-3 border-primary h-100">
-            <div class="card-body">
-              <i class="fa-solid fa-user fa-2xl blue figma-icon"></i>
-              <h3 class="card-title">Soft Skills</h3>
-              <p class="card-text blue indent">
-                My strong suites are being creative, helpful, and empathetic. I
-                am detail-driven, logical, and reliable in my work. I always
-                make sure to keep an open-mind in order to see and understand
-                all possibilities.
-              </p>
+      <hr class="hr-fix" />
+
+      <section>
+        <div class="container text-center">
+          <div id="my-projects">
+            <h2 class="chonburi-regular fs-1 mb-5">My Projects</h2>
+          </div>
+          <div id="des-dev-h3" class="row mb-2">
+            <div class="col">
+              <h3 class="blue chonburi-regular fs-2">UI/UX & Prototyping</h3>
+            </div>
+            <div class="col">
+              <h3 class="blue chonburi-regular fs-2">Website Development</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-xxl-6">
+              <div class="tn-bottom">
+                <a href="cs_rescue-trac.html" class="learn-more">
+                  <img
+                    src="img/rescue-trac-cover.png"
+                    alt="3 screens of the Recue-Trac mobile app prototype"
+                    class="img-fluid mx-auto d-block cs-rt-img"
+                  />
+                  <h4 class="cs-title project-title lato-black">
+                    Rescue-Trac: Hi-Fi Prototype
+                  </h4>
+                  <h5 class="blue lato-bold fs-4">Case Study</h5>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-xxl-6">
+              <a href="cs_mbm-landing-pg.html" class="learn-more">
+                <div class="tn-bottom">
+                  <img
+                    src="img/mbm-cropped-landing-pg-img.png"
+                    alt="hero section of the Made by Me workshop landing page"
+                    class="img-fluid mx-auto d-block cs-rt-img"
+                  />
+                  <h4 class="cs-title project-title lato-black">
+                    Made by Me Landing Page
+                  </h4>
+                  <h5 class="blue lato-bold fs-4">Case Study</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- DesignSocial:  GOOD TO GO! -->
+            <!-- DS Cover -->
+            <div class="col-12 col-xxl-6">
+              <div class="des-proj">
+                <img
+                  src="img/designsocial-cover.png"
+                  alt="3 screens of the DesignSocial mobile app prototype"
+                  class="img-fluid mx-auto d-block cs-rt-img"
+                />
+                <h4 class="lato-black project-title non-cs">
+                  DesignSocial: Mid-Fi Prototype
+                </h4>
+                <!-- Button trigger DS modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary non-cs"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ds-modal"
+                  style="background-color: #427aa1; border: #05668d"
+                >
+                  Learn More
+                </button>
+              </div>
+              <!-- DS Modal -->
+              <div
+                class="modal fade"
+                id="ds-modal"
+                tabindex="-1"
+                aria-labelledby="ds-modal-label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1
+                        class="modal-title fs-1 chonburi-regular"
+                        id="ds-modal-label"
+                      >
+                        DesignSocial
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body px-4">
+                      <img
+                        src="img/designsocial-splash.png"
+                        alt="DesignSocial splash screen"
+                        height="300rem"
+                      />
+                      <div>
+                        <div class="blue">
+                          <i class="fa-brands fa-figma fa-2xl mt-5"></i>
+                        </div>
+                        <br />
+                        <a
+                          href="https://www.figma.com/proto/vW0zBgp41NZuY17XEueNtP/DesignSocial?node-id=19-1828&starting-point-node-id=19%3A1828&t=h0RNJFSNWKaN6upA-1"
+                          class="btn btn-primary mb-3"
+                          target="_blank"
+                          style="background-color: #427aa1; border: #05668d"
+                          >View Interactive Prototype</a
+                        >
+                      </div>
+                      <p class="indent text-start">
+                        I completed this piece for a User-Centered Design
+                        course. It was an individual assignment created to
+                        demonstrate my wireframing and prototyping skills ahead
+                        of a bigger project to come (go check out Rescue-Trac if
+                        you haven't already!). Though I began the project with
+                        InVision as my tool of choice, I migrated to Figma to
+                        ensure the preservation of my work after the app's
+                        shutdown.
+                      </p>
+                      <p class="indent text-start non-cs-img">
+                        This illustrates a concept for an art-based social
+                        platform. Here, artists of all types can form themed
+                        communities and interact with each other online,
+                        discussing all things art. Non-artists are welcome as
+                        well, and it's a great place to commisssion artists or
+                        to find their shops that are hosted on other platforms
+                        like Etsy.
+                      </p>
+                      <img
+                        src="img/designsocial-img.png"
+                        alt="8 screens of the DesignSocial app prototype"
+                        class="img-fluid mx-auto d-block"
+                      />
+                      <a
+                        href="links/Riley Brunn - DesignSocial Wireframes.pdf"
+                        class="btn btn-primary mt-4 mb-4"
+                        target="_blank"
+                        style="background-color: #427aa1; border: #05668d"
+                        >View Wireframe PDF</a
+                      >
+                      <h2 class="blue fs-4 text-start">Screens Include:</h2>
+                      <ul class="text-start">
+                        <li>
+                          a <b>Home</b> page displaying the communities a user
+                          is a member of. Users can join and contribute to many
+                          different themed communities on the platform
+                        </li>
+                        <li>
+                          A <b>Discover</b> page with a search bar and an image
+                          grid of user posts. The posts gathered here are based
+                          on the user's interests
+                        </li>
+                        <li>a <b>Notifications</b> page</li>
+                        <li>
+                          a <b>Profile</b> page that includes a grid of the
+                          user's posts
+                        </li>
+                        <li>a <b>Messages</b> page</li>
+                        <li>a <b>splash</b> screen</li>
+                        <li>a <b>Settings</b> page</li>
+                      </ul>
+                      <p class="indent text-start">
+                        Purple is chosen as the primary color because of its
+                        symbolism of creativity. Since yellow is its
+                        complementary color, I chose to use this as a secondary
+                        to contrast the cooler primary.
+                      </p>
+                      <p class="indent text-start">
+                        This layout is reminiscent of other social media
+                        interfaces to create a familiar user experience. The
+                        buttons have large touch targets for better usability
+                        and accessibility. Different font weights are used for
+                        visual interest and better visual clarity.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- GQ Cover -->
+            <div class="col-12 col-xxl-6">
+              <div class="des-proj">
+                <img
+                  src="img/geo-quiz.png"
+                  alt="a simple website with a form and a quiz"
+                  class="img-fluid mx-auto d-block cs-rt-img"
+                />
+                <h4 class="lato-black project-title non-cs">Geography Quiz</h4>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary non-cs"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gq-modal"
+                  style="background-color: #427aa1; border: #05668d"
+                >
+                  Learn More
+                </button>
+              </div>
+              <!-- GQ Modal -->
+              <div
+                class="modal fade"
+                id="gq-modal"
+                tabindex="-1"
+                aria-labelledby="gq-modal-label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1
+                        class="modal-title fs-1 chonburi-regular"
+                        id="gq-modal-label"
+                      >
+                        Geography Quiz
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body px-4">
+                      <video
+                        src="img/geo-quiz.mp4"
+                        controls
+                        class="img-fluid mx-auto d-block"
+                      ></video>
+                      <div class="blue">
+                        <i
+                          class="fa-brands fa-html5 fa-2xl mb-3 i-mr mt-5 mb-5"
+                        ></i
+                        ><i
+                          class="fa-brands fa-js fa-2xl mb-3 i-mr mt-5 mb-5"
+                        ></i
+                        ><i class="fa-brands fa-css3-alt fa-2xl mt-5 mb-5"></i>
+                      </div>
+                      <a
+                        href="https://riley-brunn.github.io/geography-quiz/"
+                        class="btn btn-primary mb-3"
+                        target="_blank"
+                        style="background-color: #427aa1; border: #05668d"
+                        >Visit Site</a
+                      >
+                      <p class="indent text-start">
+                        I made this in a Client-Side Scripting course as a final
+                        project. The app lets users take a simple geography quiz
+                        and optionally submit some identifying information along
+                        with it. I utilized HTML, CSS, and JavaScript in this
+                        project. Notable skills used include
+                        <b>form validation</b> and <b>conditional logic</b>. The
+                        design includes a right sidebar for ad space or other
+                        extra content.
+                      </p>
+                      <p class="indent text-start">
+                        In the making of this project, I was struggling with
+                        adding the <b>input hints</b> in the proper places. I
+                        also had trouble displaying the correct symbol to show
+                        whether the input was valid or needed to be fixed. In
+                        order to make it work, I placed a span tag to the right
+                        of each input box and, with JavaScript, used a switch
+                        statement to decide which hint text node it should
+                        insert into which span. The hint is offered when the
+                        input box is focused and the input is validated when the
+                        box is blurred.
+                      </p>
+                      <p class="indent text-start">
+                        Developing this app gave me a better grasp on making
+                        online quizzes, which involve conditional logic and
+                        incrementing values to total a score. It also helped me
+                        figure out how to give hints for filling in different
+                        types of input without visually overwhelming or
+                        confusing the user.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- AP Cover -->
+            <div class="col-12 col-xxl-6">
+              <div class="des-proj">
+                <img
+                  src="img/audiophile-cover.png"
+                  alt="section of the Audiophile marketing website that explains its major features"
+                  class="img-fluid mx-auto d-block cs-rt-img"
+                />
+                <h4 class="lato-black project-title non-cs">
+                  Audiophile: A Social Platform Concept
+                </h4>
+                <!-- Button trigger AP modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary non-cs"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ap-modal"
+                  style="background-color: #427aa1; border: #05668d"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+
+            <!-- Audiophile:  GOOD TO GO! -->
+            <!-- AP Modal -->
+            <div
+              class="modal fade"
+              id="ap-modal"
+              tabindex="-1"
+              aria-labelledby="ap-modal-label"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-1 chonburi-regular"
+                      id="ap-modal-label"
+                    >
+                      Audiophile
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body px-4">
+                    <img
+                      src="img/audiophile-logo.png"
+                      alt="a digitally drawn record graphic serving as the Audiophile logo"
+                      height="300rem"
+                    />
+                    <div>
+                      <a
+                        href="https://brunnriley323.wixsite.com/audiophilesocial"
+                        class="btn btn-primary mt-1 mb-3"
+                        target="_blank"
+                        style="background-color: #427aa1; border: #05668d"
+                        >Marketing Website</a
+                      >
+                    </div>
+                    <p class="indent text-start">
+                      This was from an assignment I did in a Social Platforms
+                      course. I was tasked with making a concept for a social
+                      media app, designing core pages, and then creating a site
+                      that advertised it and highlighted its key features.
+                    </p>
+                    <p class="text-start">
+                      <b>Concept:</b> This endeavor helped me learn more about
+                      how social media sites are put together. The mobile app is
+                      called "Audiophile", which would take inspiration from
+                      other platforms such as Reddit and Twitter. It would be a
+                      place for music-lovers to discuss different genres, share
+                      playlists, recommend new artists, and discuss new
+                      releases. Some of the app's features would include
+                      live-streaming, event-organizing, and Sub-Hubs, which are
+                      similar to Reddit's concept of subreddits.
+                    </p>
+                    <img
+                      src="img/audiophile.png"
+                      alt="collection of 5 graphics: the Audiophile logo, a graphic for the app's color palette, and mockups of 3 three of the app's screens"
+                      class="img-fluid mx-auto d-block"
+                    />
+                    <div>
+                      <a
+                        href="links/Riley Brunn - Audiophile Design PDF.pdf"
+                        class="btn btn-primary mt-4 mb-3"
+                        target="_blank"
+                        style="background-color: #427aa1; border: #05668d"
+                        >View PDF</a
+                      >
+                    </div>
+                    <p class="text-start">
+                      <b>Imagery:</b> An audiophile is someone who is
+                      enthusiastic about recording and listening to
+                      high-fidelity music. The logo I illustrated in Ibis Paint
+                      X is a stylized version of a vinyl record. This is not
+                      only a common symbol of music but also a popular listening
+                      medium among audiophiles, making it a good pick for the
+                      app's logo. The color scheme includes red because of it's
+                      symbolism of passion and excitement. These are common
+                      feelings people have when listening to and talking about
+                      their favorite music, making this color scheme really
+                      resonate with the app's users.
+                    </p>
+                    <p class="text-start">
+                      <b>Interface:</b> These screens were designed in Picsart.
+                      The top app bar includes a profile button, the app logo,
+                      and a side drawer. The bottom tab bar includes buttons for
+                      the home feed, discovery page, post creation,
+                      livestreaming, and messages. The design is high contrast,
+                      which is beneficial for accessibility.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col">
-          <div class="card p-3 border-primary h-100">
-            <div class="card-body">
-              <i class="fa-solid fa-globe fa-2xl blue figma-icon"></i>
-              <h3 class="card-title">Experience</h3>
-              <p class="card-text blue indent">
-                I've worked and volunteered in a variety of environments
-                involving collaboration, organization, and communication skills.
-                These experiences include working as a Web Development Intern
-                for an LLC, as well as for a small startup, and being an AI
-                Writing Evaluator.
-              </p>
-              <p class="card-text blue indent">
-                My intern work has included many different responsibilities,
-                from designing wireframes and visual mockups to using WordPress
-                to code and build websites.
-              </p>
-              <p class="card-text blue indent">
-                In my university coursework, I have participated in multiple
-                group projects of varying subjects. One major project was to
-                create a mobile app concept, which ended as a visual
-                implementation and hi-fi prototype. Another significant project
-                was also for a mobile app, and it involved the full creation
-                process starting with an early concept and ending with a
-                functional product.
-              </p>
-              <!-- <p class="card-text blue indent">My volunteer activities have included working
-                in a wildlife hospital, library, and in outdoor spaces
-                contributing to the betterment of the envionment.</p> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card p-3 border-primary h-100">
-            <div class="card-body">
-              <i class="fa-solid fa-computer fa-2xl blue figma-icon"></i>
-              <h3 class="card-title">Hard Skills</h3>
-              <ul class="card-text blue text-start">
-                <li class="fw-bold">Languages and Frameworks</li>
-                <ul>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS, SCSS, SASS</li>
-                  <li>Bootstrap</li>
-                  <li>
-                    Currently learning: React, React Native, Node.js, and PHP
-                  </li>
-                </ul>
-                <li class="fw-bold">UI and Design Tools</li>
-                <ul>
-                  <li>Figma</li>
-                  <li>Canva</li>
-                  <li>Currently learning: Adobe Photoshop and Premiere Pro</li>
-                </ul>
-                <li class="fw-bold">CMS, Database, and Version Control</li>
-                <ul>
-                  <li>WordPress</li>
-                  <li>Airtable</li>
-                  <li>Git</li>
-                  <li>Currently learning: MySQL and PostgreSQL</li>
-                </ul>
-                <li class="fw-bold">UX, User Flows, and Surveys</li>
-                <ul>
-                  <li>Lucidchart</li>
-                  <li>Microsoft Visio</li>
-                  <li>SurveyMonkey</li>
-                </ul>
-              </ul>
-            </div>
-          </div>
-        </div>
+      </section>
+      <div>
+        <a href="#navbarNav" class="mx-auto d-block text-center mt-3" style="color: #427aa1"> Back to Top</a>
       </div>
-    </div>
+    </main>
 
-    <hr class="hr-fix" />
-
-    <h2 id="Des" class="left-margin lato-bold">Design</h2>
-    <div class="container text-center des-cards">
-      <div class="row row-cols-1 row-cols-lg-2 gx-5 gy-5 w-75 mx-auto">
-        <div class="col">
-          <div class="card h-100" style="background-color: azure">
-            <img
-              src="img/rescue-trac-img.png"
-              class="card-img-top"
-              alt="visual mockup of login screen for an iPhone app"
-              height="350px"
-            />
-            <div class="card-body">
-              <h3 class="card-title" style="color: #05668d">
-                Rescue-Trac Hi-Fi Prototype
-              </h3>
-              <span class="blue"
-                ><i class="fa-brands fa-figma fa-2xl figma-icon"></i
-              ></span>
-              <p class="card-text indent">
-                Rescue-Trac is a concept for a pet-finder app. This was created
-                as a group project where I worked as the team lead and the main
-                UI/UX designer. My final and biggest contribution was creating
-                the hi-fi design and prototype, which I have linked below.
-              </p>
-              <p class="card-text indent">
-                This product was created for a User-Centered Design class, and
-                the purpose of the assignment was to take an idea for a mobile
-                app from a basic flowchart of ideas to a hi-fi interactive
-                prototype. Throughout the course of this semester-long project,
-                I learned many important UX protocols and methods, as well as
-                ways to gather and implement user feedback.
-              </p>
-              <p class="card-text indent">
-                The app's main purposes are to help users find pets to adopt and
-                to help other users find lost pets. Key features are:
-              </p>
-              <ul class="card-ul">
-                <li>Notifications</li>
-                <li>
-                  The ability to follow rescue shelters and foster homes that
-                  the user is interested in
-                </li>
-                <li>
-                  A button on pet profiles to message the shelter directly in
-                  the app
-                </li>
-                <li>
-                  A button on lost/found pet posts to message the owner/finder
-                  of a pet directly in the app
-                </li>
-                <li>
-                  Optional inclusion of a telephone link for pet profiles or
-                  posts
-                </li>
-                <li>
-                  Bookmarking functionality to save a list of pet profiles a
-                  user is interested in
-                </li>
-              </ul>
-              <p class="card-text indent">
-                The color scheme is playful and friendly while maintaining a
-                calm atmosphere. The teals and greens provide a feeling of
-                tranquility while the orange accents brighten up the palette and
-                provide a contrast to the cooler hues.
-              </p>
-              <p class="card-text indent">
-                Icons such as the filter and the user represent expected
-                functionality for better user experience. Touch targets are kept
-                large enough to prevent misclicks and color contrast is
-                demonstrated for good accessibility.
-              </p>
-              <a
-                href="https://www.figma.com/design/OpArKA0rdEBUIGL3UmAnNK/Improved-Rescue-Trac-Hi-Fi-Prototype?node-id=0-1&t=Yp91dl1WmhyQeUfF-1"
-                class="btn btn-primary"
-                target="_blank"
-                style="background-color: #427aa1; border: #05668d"
-                >View Design File</a
-              >
-              <br />
-              <a
-                href="https://www.figma.com/proto/OpArKA0rdEBUIGL3UmAnNK/Improved-Rescue-Trac-Hi-Fi-Prototype?node-id=1-151&p=f&t=SF65opcNecwSbldA-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A151"
-                class="btn btn-primary mt-2"
-                target="_blank"
-                style="background-color: #427aa1; border: #05668d"
-                >View Interactive Prototype</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100" style="background-color: azure">
-            <img
-              src="img/audiophile.png"
-              class="card-img-top"
-              alt="collection of 5 graphics: a digitally drawn record, a color palette, and visual mockups of 3 mobile app screens"
-              height="350px"
-            />
-            <div class="card-body">
-              <h3 class="card-title" style="color: #05668d">
-                Social Platform Concept
-              </h3>
-              <p class="card-text">
-                This was from an assignment I did in a Social Platforms course.
-                I was tasked with making a concept for a social media app,
-                designing some core pages, and then creating a site that
-                advertised it and highlighted its key features.
-              </p>
-              <p class="card-text">
-                <b>Concept:</b> This endeavor helped me learn more about how
-                social media sites are put together. The mobile app would be
-                called "Audiophile", which would take inspiration from other
-                platforms such as Reddit and Twitter. It would be a place for
-                music-lovers to discuss different genres, share playlists,
-                recommend new artists, and discuss new releases. Some of the
-                app's features would include live-streaming, event-organizing,
-                and Sub-Hubs, which are similar to Reddit's concept of
-                subreddits.
-              </p>
-              <p class="card-text">
-                <b>Imagery:</b> An audiophile is someone who is enthusiastic
-                about recording and listening to high-fidelity music. The logo I
-                illustrated in Ibis Paint X is a stylized version of a vinyl
-                record. This is not only a common symbol of music but also a
-                popular listening medium among audiophiles, making it a good
-                pick for the app's logo. The color scheme includes red because
-                of it's symbolism of passion and excitement. These are common
-                feelings people have when listening to and talking about their
-                favorite music, making this color scheme really resonate with
-                the app's users.
-              </p>
-              <p class="card-text">
-                <b>Interface:</b> These screens were designed in Picsart. The
-                top app bar includes a profile button, the app logo, and a side
-                drawer. The bottom tab bar includes buttons for the home feed,
-                discovery page, post creation, livestreaming, and messages. The
-                design is high contrast, which is beneficial for accessibility.
-              </p>
-              <a
-                href="links/audiophile.pdf"
-                class="btn btn-primary"
-                target="_blank"
-                style="background-color: #427aa1; border: #05668d"
-                >View PDF</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100" style="background-color: azure">
-            <img
-              src="img/designsocial-img.png"
-              class="card-img-top"
-              alt="visual mockup of a social app showing 8 screens on an android phone"
-              height="350px"
-            />
-            <div class="card-body">
-              <h3 class="card-title" style="color: #05668d">
-                DesignSocial Mid-Fi Prototype
-              </h3>
-              <span class="blue"
-                ><i class="fa-brands fa-figma fa-2xl figma-icon"></i
-              ></span>
-              <p class="card-text indent">
-                I completed this piece for a User-Centered Design course. It was
-                an individual assignment created to demonstrate my wireframing
-                and prototyping skills as a precursor to a bigger project.
-              </p>
-              <p class="card-text indent">
-                This illustrates a concept for an art-based social platform. I
-                designed it for an Android screen since I usually end up
-                designing for iPhone and wanted some variety. The screens shown
-                include:
-              </p>
-              <ul class="card-ul">
-                <li>
-                  a Home page displaying the communities a user is a member of.
-                  Users can join and contribute to many different themed
-                  communities on the platform
-                </li>
-                <li>
-                  A Discover page with a search bar and an image grid of user
-                  posts. The posts gathered here are based on the user's
-                  interests
-                </li>
-                <li>a Notifications page</li>
-                <li>a Profile page that includes a grid of the user's posts</li>
-                <li>a Messages page</li>
-                <li>a splash screen</li>
-                <li>a Settings page</li>
-              </ul>
-              <p class="card-text indent">
-                Purple is chosen as the primary color because of its symbolism
-                of creativity. Since yellow is its complementary color, it
-                provides contrast to the cooler primary color.
-              </p>
-              <p class="card-text indent">
-                The layout is reminiscent to other social media interfaces for a
-                familiar user experience. Buttons have large touch targets for
-                better usability and accessibility. Different font weights are
-                used for visual interest and better visual clarity.
-              </p>
-              <a
-                href="https://www.figma.com/design/vW0zBgp41NZuY17XEueNtP/DesignSocial?node-id=0-1&t=bD4GRLR2RoNRxjrB-1"
-                class="btn btn-primary"
-                target="_blank"
-                style="background-color: #427aa1; border: #05668d"
-                >View Design File</a
-              >
-              <br />
-              <a
-                href="https://www.figma.com/proto/vW0zBgp41NZuY17XEueNtP/DesignSocial?node-id=19-1828&starting-point-node-id=19%3A1828&t=h0RNJFSNWKaN6upA-1"
-                class="btn btn-primary mt-2"
-                target="_blank"
-                style="background-color: #427aa1; border: #05668d"
-                >View Interactive Prototype</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100" style="background-color: azure">
-            <img
-              src="img/exercise.png"
-              class="card-img-top"
-              alt="visual mockup of mobile exercise app showing 8 screens"
-              height="350px"
-            />
-            <div class="card-body">
-              <h3 class="card-title" style="color: #05668d">
-                Exercise App Mockup
-              </h3>
-              <span class="blue"
-                ><i class="fa-brands fa-figma fa-2xl figma-icon"></i
-              ></span>
-              <p class="card-text indent">
-                I made this for my recent Mobile Development course. Similar to
-                my to-do app assignment discussed previously, the precursor to
-                this was a simple React Native app.
-              </p>
-              <p class="card-text indent">
-                This design of an exercise app holds all the benefits of a
-                traditional workout interface while including other features
-                such as a fun design, options to add weight to certain
-                exercises, and a way for the timer to count up or down depending
-                on the user's needs. There is also a way to record each workout
-                in a log. It is simplistic and expresses good shape and color
-                variety. Demostrated features in this visual include:
-              </p>
-              <ul class="card-ul">
-                <li>
-                  An option for the timer on the second plank screen to count up
-                  or down from a specified point when the kebab menu button is
-                  pressed
-                </li>
-                <li>
-                  A time picker on the third plank screen is revealed when the
-                  Timer box is pressed
-                </li>
-                <li>
-                  Indication of recording in progress on the second push-ups
-                  screen
-                </li>
-                <li>
-                  A selection box to add weight on the third push-ups screen
-                </li>
-              </ul>
-              <p class="card-text indent">
-                Orange is used because it represents energy and excitement,
-                demonstrating the app's intended atmosphere. The bottom tab bar
-                will be visually familiar to users, which is helpful for the
-                app's usability.
-              </p>
-              <a
-                href="links/exercise.pdf"
-                class="btn btn-primary"
-                target="_blank"
-                style="background-color: #427aa1; border: #05668d"
-                >View PDF</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <hr class="hr-fix" />
-
-    <h2 id="Dev" class="left-margin lato-bold">Development</h2>
-    <section class="left-margin dev-des">
-      <div class="col">
-        <h3>Career Workshop Landing Page</h3>
-        <div class="i-div">
-          <span class="blue"
-            ><i class="fa-brands fa-wordpress fa-2xl i-mr"></i
-            ><i class="fa-brands fa-php fa-2xl i-mr"></i
+    <footer id="my-footer" class="text-center bg-dark">
+      <div class="container">
+        <span id="bs" class="icon-color"
           ><i class="fa-brands fa-bootstrap fa-2xl"></i
-            ></span>
-        </div>
-        <p class="dev-txt">
-          This was completed during my time as a web development intern at Think
-          Integrated. The page hosts Eventbrite links for interested individuals
-          to register for the workshop. Details and info about the event and scholarship opportunity are present throughout.
-        </p>
-        <video
-        src="img/mbm-landing-pg.mp4"
-        width="500"
-        height="215"
-        controls
-        class="vid"
-        ></video>
-        <div>
-          <a
-          href="https://www.figma.com/design/GBriAjGgR00XwEzyvRLVOG/Lo-Fi-Made-By-Me-Landing-Page-Wireframe?node-id=0-1&t=RVadkJhxSz8Azrko-1"
-          class="btn btn-primary i-mr"
-          target="_blank"
-          style="background-color: #427aa1; border: #05668d"
-          >View Design File</a
-        >
+        ></span>
+        <p id="boot" class="icon-color">Built with Bootstrap</p>
         <a
-          href="https://wethinkintegrated.com/community/made-by-me/"
-          class="btn btn-primary"
+          href="mailto:brunn.riley323@gmail.com"
           target="_blank"
-          style="background-color: #427aa1; border: #05668d"
-          >Visit Site</a
-        >
-      </div>
-          <h4 class="blue subheading">Key Features</h4>
-        <ul class="dev-ul dev-des">
-          <li>Bookmarks for important sections placed in nav bar</li>
-          <li>Link to register found in 3 spots</li>
-          <li>Engaging UI</li>
-          <li>Curator.io embed for dynamic social media integration</li>
-        </ul>
-        <h4 class="blue subheading">Skills Highlighted</h4>
-        <ul class="dev-ul dev-des">
-          <li>Building reusable blocks with PHP</li>
-          <li>Using WordPress to build and manage the site's content</li>
-          <li>Advanced Custom Fields (ACF) plugin utilized, a repeater field in particular</li>
-          <li>Responsive design</li>
-          <li>Web Content Accessibility Guidelines (WCAG) enforced</li>
-          <li>Use of Bootstrap framework</li>
-        </ul>
-        <p class="dev-txt subheading indent">
-          The biggest challenges faced in this project were due to the learning curve for PHP and WordPress, given that I was a first-time user of them. Once I learned how each piece fit into the puzzle, I was able to speed up my development process and make great leaps in my understanding of them.
-        </p>
-        <p class="dev-txt subheading indent">
-          This was a monumental learning experience for me, both in design, development, and teamwork. I was the sole developer for the site, though I worked in a team of interns that contributed the copy, some design ideas, and the GIF displayed in the hero. I also used guidance from the professional developers at Think Integrated.
-        </p>
-      </div>
-
-      <div class="col">
-        <h3 class="spc-out">Car Inventory Management System</h3>
-        <div class="i-div">
-          <span class="blue"><i class="fa-brands fa-js fa-2xl"></i></span>
-        </div>
-        <p class="dev-txt">
-          This is from an assignment completed in a Server-Side Scripting
-          course. In this app, users can input car specs into a form and see
-          them output into a list at the bottom.
-        </p>
-        <video
-          src="img/car-inventory.mp4"
-          width="500"
-          height="215"
-          controls
-          class="vid"
-        ></video>
-        <div>
+          class="i-span icon-color"
+          ><i class="fa-solid fa-envelope fa-2xl"></i
+        ></a>
         <a
-        href="https://riley-brunn.github.io/car-inventory/"
-        class="btn btn-primary"
-        target="_blank"
-        style="background-color: #427aa1; border: #05668d"
-        >Visit Site</a
-      >
-      <p id="note">Note: For Image URL field, right-click on an online image and use "Copy image address", then paste into field</p>
-    </div>
-        <h4 class="blue subheading">Key Features</h4>
-        <ul class="dev-ul dev-des">
-          <li>Price sorting in ascending order</li>
-          <li>Price averaging</li>
-          <li>Price totaling</li>
-          <li>Image zoom</li>
-          <li>Clearly labeled buttons</li>
-        </ul>
-        <h4 class="blue subheading">Skills Highlighted</h4>
-        <ul class="dev-ul dev-des">
-          <li>Outputting images to page through image address</li>
-          <li>Sorting entries</li>
-          <li>Various math calculations</li>
-          <li>Zoom functionality on hover</li>
-        </ul>
-        <p class="dev-txt subheading indent">
-          While I was creating this project, I had trouble with sorting the list
-          of entries. I was trying to replace the original list with the sorted
-          version, but I couldn't figure out which method was best for removing
-          the entries and replacing them with a different ordered list. I ended
-          up using a while loop, the hasChildNodes() method, and removeChild()
-          methods to remove the old list and used appendChild() and
-          insertAdjacentElement() to add the new list.
-        </p>
-        <p class="dev-txt subheading indent">
-          This gave me a good understanding of different math calculations
-          within programming for real-life applications. I also got a good grasp
-          on how to do other things such as animate images and customize
-          drop-down lists.
-        </p>
-      </div>
-
-      <div class="col">
-        <h3 class="spc-out">Form and Quiz</h3>
-        <div class="i-div">
-          <span class="blue"><i class="fa-brands fa-js fa-2xl"></i></span>
-        </div>
-        <p class="dev-txt">
-          I made this in a Client-Side Scripting course as a final project. The
-          app let's users take a simple geography quiz and optionally submit
-          some identifying information along with it.
-        </p>
-        <video
-          src="img/geo-quiz.mp4"
-          width="500"
-          height="215"
-          controls
-          class="vid"
-        ></video>
-        <div>
-          <a
-          href="https://riley-brunn.github.io/geography-quiz/"
-          class="btn btn-primary"
+          href="https://www.linkedin.com/in/riley-brunn/"
           target="_blank"
-          style="background-color: #427aa1; border: #05668d"
-          >Visit Site</a
-        >
+          class="i-span icon-color"
+          ><i class="fa-brands fa-linkedin fa-2xl"></i
+        ></a>
+        <a
+          href="https://github.com/riley-brunn"
+          target="_blank"
+          class="i-span icon-color"
+          ><i class="fa-brands fa-square-github fa-2xl"></i
+        ></a>
       </div>
-        <h4 class="blue subheading">Key Features</h4>
-        <ul class="dev-ul">
-          <li>Right sidebar for ad space or other extra content</li>
-          <li>Hints for giving correct input</li>
-          <li>Input validation on blur</li>
-          <li>Form input displayed to page after submission</li>
-          <li>Image given at end depends on number of correct answers</li>
-        </ul>
-        <h4 class="blue subheading">Skills Highlighted</h4>
-        <ul class="dev-ul">
-          <li>Input validation</li>
-          <li>Displaying input to page</li>
-          <li>Conditional logic to display picture</li>
-        </ul>
-        <p class="dev-txt subheading indent">
-          In the making of this project, I was struggling with adding the input
-          hints in the proper places. I also had trouble displaying the correct
-          symbol to show whether the input was valid or needed to be fixed. In
-          order to make it work, I placed a span tag to the right of each input
-          box and, with JavaScript, used a switch statement to decide which hint
-          text node it should insert into which span. The hint is offered when
-          the input box is focused and the input is validated when the box is
-          blurred.
-        </p>
-        <p class="dev-txt subheading indent">
-          Developing this app gave me a better grasp on making online quizzes,
-          which involve conditional logic and incrementing values to total a
-          score. It also helped me figure out how to give hints for filling in
-          different types of input without visually overwhelming or confusing
-          the user.
-        </p>
-      </div>
-    </section>
-
-    <footer id="my-footer">
-      <span id="bs" class="blue left-margin"
-        ><i class="fa-brands fa-bootstrap fa-2xl"></i
-      ></span>
-      <p id="boot" class="left-margin blue">Built with Bootstrap</p>
     </footer>
   </body>
 </html>
