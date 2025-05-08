@@ -209,6 +209,10 @@ h1 {
   display: block;
 }
 
+#think {
+  text-decoration: underline;
+}
+
 .bull-pts {
   list-style: square;
 }
