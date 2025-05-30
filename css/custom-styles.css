@@ -72,6 +72,10 @@ body {
   color: #80e6da;
 }
 
+.bs-foot {
+  color: #cdfff9;
+}
+
 h1 {
   /* font-size: 100rem; */
   margin-top: 4rem !important;
@@ -207,10 +211,6 @@ h1 {
 
 #bs {
   display: block;
-}
-
-#think {
-  text-decoration: underline;
 }
 
 .bull-pts {
