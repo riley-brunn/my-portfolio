@@ -140,6 +140,10 @@ h1 {
   width: 15%;
 }
 
+#so_calendar {
+  border: 1px solid black;
+}
+
 .cs-title {
  color: black;
 }
