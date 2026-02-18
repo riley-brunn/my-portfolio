@@ -83,6 +83,8 @@ h1 {
   font-size: 5rem;
 }
 
+
+
 #greeting {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
@@ -221,6 +223,28 @@ h1 {
 .bull-pts {
   list-style: square;
 }
+
+
+
+/*ANIMATIONS*/
+@keyframes titleFade {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.titleFade-animation {
+  animation: 1.5s titleFade;
+}
+
+
+
+/*FONTS*/
 
 /* title */
 .chonburi-regular {
