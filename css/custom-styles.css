@@ -128,9 +128,9 @@ h1 {
   color: #CDA2AB;
 }
 
-.indent {
+/* .indent {
   text-indent: 2rem;
-}
+} */
 
 #sec-title {
   font-size: 2.5rem;
@@ -222,6 +222,14 @@ h1 {
 
 .bull-pts {
   list-style: square;
+}
+
+.pretty-bullets {
+  list-style-type: none;
+}
+
+div > p {
+text-indent: 2rem;
 }
 
 
