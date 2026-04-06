@@ -185,8 +185,8 @@ h1 {
 }
 
 .cs-rt-img {
-  border-radius: 40px;
-  border: 3px solid gray;
+  border-radius: 15px;
+  border: 3px solid rgb(98, 98, 98);
 }
 
 .project-title {
@@ -230,6 +230,10 @@ h1 {
 
 div > p {
 text-indent: 2rem;
+}
+
+h3 {
+  color: rgb(73, 73, 73);
 }
 
 
