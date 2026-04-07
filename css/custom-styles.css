@@ -48,9 +48,14 @@
   }
 }
 
-body {
-  background-color: #cdfff9 !important;
+body{
+  /* background-color: #cdfff9 !important; */
+  background-image: linear-gradient(to right, #B6FFFF, #B5B0D4);
 }
+
+.modal-body, .modal-header, .modal-footer {
+  background-image: linear-gradient(to right, #C7FFDA, #E8E1EF);
+ }
 
 #hs {
   text-decoration: none;
@@ -83,7 +88,9 @@ h1 {
   font-size: 5rem;
 }
 
-
+.link-text {
+  color: #1173D0;
+}
 
 #greeting {
   font-size: 1.5rem;
