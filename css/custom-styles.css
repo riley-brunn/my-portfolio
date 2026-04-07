@@ -183,12 +183,14 @@ h1 {
   border-radius: 40px;
   margin-bottom: 1rem;
   padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 0.5rem;
   transition: 0.3s;
 }
 
 .tn-bottom:hover{
-  background-color: #E0D3DE;
+  background-color: #EDFFD3;
 }
 
 .cs-rt-img {
@@ -202,6 +204,8 @@ h1 {
 
 .des-proj {
   margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #mx-proj-entry {
@@ -209,12 +213,14 @@ h1 {
   border-radius: 40px;
   margin-bottom: 1rem;
   padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 0.5rem;
   transition: 0.3s;
 }
 
 #mx-proj-entry:hover{
-  background-color: #E0D3DE;
+  background-color: #EDFFD3;
 }
 
 .i-mr {
