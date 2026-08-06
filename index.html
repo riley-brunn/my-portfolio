@@ -1,15 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RHLVCRHERM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RHLVCRHERM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-RHLVCRHERM');
-</script>
+      gtag("config", "G-RHLVCRHERM");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riley Brunn's Portfolio</title>
@@ -73,7 +78,9 @@
                 <a class="nav-link" href="index.html" aria-label="Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#my-projects" aria-label="My Projects">My Projects</a>
+                <a class="nav-link" href="#my-projects" aria-label="My Projects"
+                  >My Projects</a
+                >
               </li>
             </ul>
 
@@ -108,7 +115,9 @@
     <main>
       <section>
         <div class="container text-center">
-          <h1 class="chonburi-regular titleFade-animation">Web & UI/UX Design</h1>
+          <h1 class="chonburi-regular titleFade-animation">
+            Web & UI/UX Design
+          </h1>
 
           <img src="img/photo-of-me.PNG" id="my-pic" alt="Riley Brunn photo" />
           <div id="greeting" class="lato-bold">Nice to meet you!</div>
@@ -130,19 +139,20 @@
       <hr class="hr-fix" />
 
       <section>
-        <div id="deets" class="container text-center">
+        <div class="container text-center">
           <h2 class="chonburi-regular fs-1 mb-5">Details</h2>
+
           <div class="container text-center">
-            <div class="row row-cols-1 row-cols-lg-2 gx-5 gy-5 mx-auto">
-              <div class="col">
-                <div class="card p-3 border-dark h-100">
+            <div class="row row-cols-1 row-cols-lg-3 gx-4 gy-4 mx-auto">
+              <div class="col-12 col-lg-3">
+                <div class="card p-2 border-dark h-100">
                   <div class="card-body">
                     <i class="fa-solid fa-book fa-2xl blue icon"></i>
                     <h3 class="card-title lato-bold">Academics</h3>
                     <p class="blue text-start">
-                      I recently graduated from the University of Central
-                      Florida with a Bachelor of Arts in Digital Media - Web and
-                      Social Platforms. I have studied front-end and back-end
+                      I graduated from the University of Central Florida with a
+                      Bachelor of Arts in Digital Media - Web and Social
+                      Platforms. I have studied front-end and back-end
                       development, as well as the design of mobile applications
                       and web interfaces. My work here has also included a
                       strong focus on UI/UX principles and web design.
@@ -151,8 +161,113 @@
                 </div>
               </div>
 
-              <div class="col">
+              <!-- <div class="col">
                 <div class="card p-3 border-dark h-100">
+                  <div class="card-body">
+                    <i class="fa-solid fa-globe fa-2xl blue icon"></i>
+                    <h3 class="card-title lato-bold">Experience</h3>
+                    <p class="blue text-start">
+                      I've worked in a variety of environments involving
+                      collaboration, organization, and communication skills.
+                      These experiences include working as a Web Development
+                      Intern, a Digital Content & Layout Designer, and a
+                      Freelance Web Designer.
+                    </p>
+                    <p class="blue text-start">
+                      My intern work included many different responsibilities,
+                      from designing wireframes and visual mockups to using
+                      WordPress to code and build websites. A major project I
+                      contributed to was the Made by Me workshop campaign, where
+                      I created the landing page for the event. Check out my
+                      <a class="link-text" href="cs_mbm-landing-pg.html"
+                        >case study</a
+                      >
+                      on it and the
+                      <a
+                        class="link-text"
+                        href="https://wethinkintegrated.com/community/made-by-me/"
+                        target="_blank"
+                        >landing page</a
+                      >
+                      itself.
+                    </p>
+                    <p class="blue text-start">
+                      In my university coursework, I participated in many
+                      large-scale group projects. One major project was creating
+                      a mobile app concept, which culminated in a hi-fi
+                      prototype. Check out my
+                      <a class="link-text" href="cs_rescue-trac.html"
+                      >case study</a
+                      >
+                      on it and the
+                      <a
+                      class="link-text"
+                      href="https://www.figma.com/proto/aTtx5ExFyNMInMfKWe1Y35/Rescue-Trac-Hi-Fi-Prototype?node-id=1-384&starting-point-node-id=1%3A384&t=SUViRyJVFyRmAwmn-1"
+                      target="_blank"
+                      >prototype</a
+                      >
+                      itself.
+                    </p>
+                    <p class="blue text-start">
+                      Alongside my current contract role, I'm currently fixing
+                      up the websites of two different organizations using
+                      WordPress. During these journeys, I've participated in
+                      recurring consultations with the owners about design
+                      direction and UX best practices. I look forward to sharing
+                      this work on here very soon!
+                    </p>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 border-dark h-100">
+                  <div class="card-body">
+                    <i class="fa-solid fa-computer fa-2xl blue icon"></i>
+                    <h3 class="card-title lato-bold">Hard Skills</h3>
+                    <ul class="card-text blue text-start">
+                      <div class="row">
+                        <div class="col">
+                          <li class="fw-bold">Languages and Frameworks</li>
+                          <ul>
+                            <li>Front-end language basics</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                          </ul>
+                          <li class="fw-bold">UI and Design Tools</li>
+                          <ul>
+                            <li>Figma, Figjam</li>
+                            <li>Miro</li>
+                            <li>Canva</li>
+                            <li>Adobe Creative Cloud tools</li>
+                          </ul>
+                        </div>
+
+                        <div class="col">
+                          <li class="fw-bold">
+                            CMS, Database, and Version Control
+                          </li>
+                          <ul>
+                            <li>WordPress</li>
+                            <li>Airtable</li>
+                            <li>Git, GitHub, Git Pages</li>
+                          </ul>
+                          <li class="fw-bold">UX, User Flows, and Surveys</li>
+                          <ul>
+                            <li>Lucidchart</li>
+                            <li>Microsoft Visio</li>
+                            <li>SurveyMonkey</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="card p-2 border-dark h-100">
                   <div class="card-body">
                     <i class="fa-solid fa-user fa-2xl blue icon"></i>
                     <h3 class="card-title lato-bold">Soft Skills</h3>
@@ -165,79 +280,6 @@
                   </div>
                 </div>
               </div>
-
-              <div class="col">
-                <div class="card p-3 border-dark h-100">
-                  <div class="card-body">
-                    <i class="fa-solid fa-globe fa-2xl blue icon"></i>
-                    <h3 class="card-title lato-bold">Experience</h3>
-                    <p class="blue text-start">
-                      I've worked and volunteered in a variety of environments
-                      involving collaboration, organization, and communication
-                      skills. These experiences include working as a Web
-                      Development Intern for a marketing agency and as a freelance web designer for two different businesses.
-                    </p>
-                    <p class="blue text-start">
-                      My intern work included many different
-                      responsibilities, from designing wireframes and visual
-                      mockups to using WordPress to code and build websites. A
-                      major project I contributed to was the Made by Me workshop
-                      campaign, where I created the landing page for the event. Check out my <a class="link-text" href="cs_mbm-landing-pg.html">case study</a> on it and the <a class="link-text" href="https://wethinkintegrated.com/community/made-by-me/" target="_blank">landing page</a> itself.
-                    </p>
-                    <p class="blue text-start">
-                      In my university coursework, I participated in many large-scale
-                      group projects. One major project was
-                      creating a mobile app concept, which culminated in a hi-fi prototype. Check out my <a class="link-text" href="cs_rescue-trac.html">case study</a> on it and the <a class="link-text" href="https://www.figma.com/proto/aTtx5ExFyNMInMfKWe1Y35/Rescue-Trac-Hi-Fi-Prototype?node-id=1-384&starting-point-node-id=1%3A384&t=SUViRyJVFyRmAwmn-1" target="_blank">prototype</a> itself.
-                    </p>
-                    <p class="blue text-start">I'm currently fixing up the websites of two different businesses using WordPress. During these journeys, I've participated in recurring consultations with the owners about design direction and UX best practices. I look forward to sharing this work on here very soon!</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card p-3 border-dark h-100">
-                  <div class="card-body">
-                    <i class="fa-solid fa-computer fa-2xl blue icon"></i>
-                    <h3 class="card-title lato-bold">Hard Skills</h3>
-                    <ul class="card-text blue text-start">
-                      <li class="fw-bold">Languages and Frameworks</li>
-                      <ul>
-                        <li>Front-end language basics</li>
-                        <li>HTML</li>
-                        <li>CSS, SCSS, SASS</li>
-                        <li>Bootstrap</li>
-                      </ul>
-                      <li class="fw-bold">UI and Design Tools</li>
-                      <ul>
-                        <li>Figma, Figjam</li>
-                        <li>Miro</li>
-                        <li>Canva</li>
-                        <li>Balsamiq</li>
-                        <li>Adobe Creative Cloud tools</li>
-                      </ul>
-                      <li class="fw-bold">
-                        CMS, Database, and Version Control
-                      </li>
-                      <ul>
-                        <li>WordPress</li>
-                        <li>Airtable</li>
-                        <li>Git, GitHub, Git Pages</li>
-                      </ul>
-                      <li class="fw-bold">UX, User Flows, and Surveys</li>
-                      <ul>
-                        <li>Lucidchart</li>
-                        <li>Microsoft Visio</li>
-                        <li>SurveyMonkey</li>
-                      </ul>
-                      <li class="fw-bold">Other</li>
-                      <ul>
-                        <li>Microsoft Office Suite tools</li>
-                        <li>AI-guided ideation and development</li>
-                      </ul>
-                    </ul>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -246,8 +288,109 @@
       <hr class="hr-fix" />
 
       <section>
+        <div class="container">
+          <h2 class="chonburi-regular fs-1 mb-5 text-center">Experience</h2>
+          <h3 class="lato-bold">
+            <i class="fa-regular fa-book-open"></i> Digital Content & Layout Designer (<i>Moore Solutions, Inc.</i>)
+          </h3>
+          <p class="fs-4">Remote/Contract • July 2026-Present</p>
+          <ul class="fs-5">
+            <li>
+              Building and editing digital layouts for online courseware using
+              HTML, CSS, and a custom page builder.
+            </li>
+            <li>
+              Designing images, graphics, and tables that best fit specific
+              sections within courses.
+            </li>
+            <li>
+              Adhering to company guidelines and style motifs for all textbooks,
+              as well as specific color schemes for individual books.
+            </li>
+          </ul>
+
+          <h3 class="lato-bold mt-5">
+            <i class="fa-regular fa-brush"></i> Freelance WordPress Web Designer (<i
+              >Holy Family Traditional Catholic Church</i
+            >)
+          </h3>
+          <p class="fs-4">Remote • March 2026-Present</p>
+          <ul class="fs-5">
+            <li>
+              Develop wireframes focused on improving content layout and
+              modernizing visuals.
+            </li>
+            <li>
+              Collaborate with a remote team to brainstorm and implement design
+              solutions.
+            </li>
+            <li>
+              Apply UX best practices including accessibility standards,
+              intuitive navigation, and responsive layouts.
+            </li>
+            <li>
+              Conduct research on similar websites and use findings to apply
+              better structure and ordering of information.
+            </li>
+          </ul>
+
+          <h3 class="lato-bold mt-5">
+            <i class="fa-regular fa-brush"></i> Freelance WordPress Web Designer (<i>Injury Treatment Solutions</i>)
+          </h3>
+          <p class="fs-4">Remote • October 2025-March 2026</p>
+          <ul class="fs-5">
+            <li>
+              Collaborate directly with client to gather project requirements│
+              translate business goals into user-centered digital solutions.
+            </li>
+            <li>
+              Improve website navigation, page layouts, and SEO optimization to
+              enhance user engagement and usability.
+            </li>
+            <li>
+              Customize WordPress themes and page structures using HTML, CSS,
+              and responsive design techniques.
+            </li>
+            <li>
+              Perform ongoing website updates, troubleshooting, and content
+              management support.
+            </li>
+          </ul>
+
+          <h3 class="lato-bold mt-5">
+            <i class="fa-regular fa-laptop-code"></i> Web Development Intern (<i>Think Integrated</i>)
+          </h3>
+          <p class="fs-4">Hybrid • Orlando, FL • January 2025-April 2025</p>
+          <ul class="fs-5">
+            <li>
+              Designed and developed a responsive landing page in WordPress for
+              a workshop marketing campaign.
+            </li>
+            <li>
+              Built web pages and blog layouts while ensuring accessibility,
+              responsive behavior, and visual consistency across devices.
+            </li>
+            <li>
+              Collaborated with developers and stakeholders to improve user
+              experience and refine interface components.
+            </li>
+            <li>
+              Assisted with quality assurance testing and usability improvements
+              for desktop and mobile platforms.
+            </li>
+            <li>
+              Supported content organization and layout optimization to improve
+              user interaction and readability.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="hr-fix" />
+
+      <section>
         <div class="container text-center">
-          <div id="my-projects">
+          <div>
             <h2 class="chonburi-regular fs-1 mb-5">My Projects</h2>
           </div>
 
@@ -260,7 +403,7 @@
                     alt="3 screens of the Recue-Trac mobile app prototype"
                     class="img-fluid mx-auto d-block cs-rt-img"
                   />
-                  <h3 class="cs-title project-title lato-bold">
+                  <h3 class="cs-title project-title lato-bold my-projects-h3">
                     Rescue-Trac: Hi-Fi App Prototype
                   </h3>
                   <h4 class="blue lato-bold fs-4">Case Study</h4>
@@ -276,7 +419,7 @@
                     alt="hero section of the Made by Me workshop landing page"
                     class="img-fluid mx-auto d-block cs-rt-img"
                   />
-                  <h3 class="cs-title project-title lato-bold">
+                  <h3 class="cs-title project-title lato-bold my-projects-h3">
                     Made by Me: Workshop Landing Page
                   </h3>
                   <h4 class="blue lato-bold fs-4">Case Study</h4>
@@ -294,7 +437,10 @@
                     alt="Home page of the Florida Capital Development website"
                     class="img-fluid mx-auto d-block cs-rt-img"
                   />
-                  <h3 class="lato-bold project-title non-cs">
+                  <h3
+                    id="fcdh3"
+                    class="lato-bold project-title my-projects-h3 non-cs"
+                  >
                     Florida Capital Development: Website Refresh
                   </h3>
                 </div>
@@ -309,7 +455,7 @@
                   alt="Spot On logo, designed by group member Thomas Mai"
                   class="img-fluid mx-auto d-block cs-rt-img"
                 />
-                <h3 class="lato-bold project-title non-cs">
+                <h3 class="lato-bold project-title my-projects-h3 non-cs">
                   Spot On: Event-Finder App
                 </h3>
                 <!-- Button trigger SO modal -->
@@ -355,20 +501,46 @@
                         id="so_calendar"
                       />
                       <div>
-
                         <br />
                       </div>
                       <p class="text-start non-cs-img">
-                        I was one of six total participants in this two-semester group project. Web Design Workshop I and II, taught by Daniel Novatnak, allowed seniors to create large-scale web projects to showcase skills learned throughout their digital media courses. These skills included coding, design, UX research, content production, and branding.
+                        I was one of six total participants in this two-semester
+                        group project. Web Design Workshop I and II, taught by
+                        Daniel Novatnak, allowed seniors to create large-scale
+                        web projects to showcase skills learned throughout their
+                        digital media courses. These skills included coding,
+                        design, UX research, content production, and branding.
                       </p>
                       <p class="text-start non-cs-img">
-                        This app was created to be an event-finder for UCF students. Users are able to create and find events on campus and in the nearby Orlando area. Important features include: an event calendar, event creator, interactive map, real-time notifications, user profiles, and messaging.
+                        This app was created to be an event-finder for UCF
+                        students. Users are able to create and find events on
+                        campus and in the nearby Orlando area. Important
+                        features include: an event calendar, event creator,
+                        interactive map, real-time notifications, user profiles,
+                        and messaging.
                       </p>
-                      <p class="text-start non-cs-img">Though I contributed to each stage in the process, the highlights of my work lay in the early ideation, market research, and the investigation of accessibility features. Throughout the duration, my role was focused specifically on information architecture, a site map, and coding the calendar page. Microsoft Visio was used to create the following visuals.</p>
+                      <p class="text-start non-cs-img">
+                        Though I contributed to each stage in the process, the
+                        highlights of my work lay in the early ideation, market
+                        research, and the investigation of accessibility
+                        features. Throughout the duration, my role was focused
+                        specifically on information architecture, a site map,
+                        and coding the calendar page. Microsoft Visio was used
+                        to create the following visuals.
+                      </p>
 
-                      <h2 class="blue fs-4 text-start">Information Architecture</h2>
+                      <h2 class="blue fs-4 text-start">
+                        Information Architecture
+                      </h2>
                       <p class="text-start">
-                        Laying the foundation for our app's and organization, this visual guided us in the early creation process. A legend is provided along with a shading system to denote page position. The lighter the shape color is, the deeper its represented page is. Blue denotes the pages before the main content of the app, such as the sign in and log in screens. Green denotes the app's main content.
+                        Laying the foundation for our app's and organization,
+                        this visual guided us in the early creation process. A
+                        legend is provided along with a shading system to denote
+                        page position. The lighter the shape color is, the
+                        deeper its represented page is. Blue denotes the pages
+                        before the main content of the app, such as the sign in
+                        and log in screens. Green denotes the app's main
+                        content.
                       </p>
                       <img
                         src="img/spot-on_info-arch.png"
@@ -385,7 +557,13 @@
                       >
                       <h2 class="blue fs-4 text-start">Site Map</h2>
                       <p class="text-start">
-                        Similar to the architecture visual, the site map represents the app's organization, with more of a focus on the flow between pages and pieces of content. The change in color scheme reflects our decision to go with a cooler color palette later on after the previous visual was made. Red and black flow lines between shapes denote whether pages connect to an event page or not.
+                        Similar to the architecture visual, the site map
+                        represents the app's organization, with more of a focus
+                        on the flow between pages and pieces of content. The
+                        change in color scheme reflects our decision to go with
+                        a cooler color palette later on after the previous
+                        visual was made. Red and black flow lines between shapes
+                        denote whether pages connect to an event page or not.
                       </p>
                       <img
                         src="img/spot-on_site-map.png"
@@ -413,9 +591,9 @@
                   </div>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
-          
+
           <!-- DS Cover -->
           <div class="row">
             <div class="col-12 col-xxl-6">
@@ -425,7 +603,7 @@
                   alt="3 screens of the DesignSocial mobile app prototype"
                   class="img-fluid mx-auto d-block cs-rt-img"
                 />
-                <h3 class="lato-bold project-title non-cs">
+                <h3 class="lato-bold project-title my-projects-h3 non-cs">
                   DesignSocial: Mid-Fi App Prototype
                 </h3>
                 <!-- Button trigger DS modal -->
@@ -571,7 +749,7 @@
                   alt="section of the Audiophile marketing website that explains its major features"
                   class="img-fluid mx-auto d-block cs-rt-img"
                 />
-                <h3 class="lato-bold project-title non-cs">
+                <h3 class="lato-bold project-title my-projects-h3 non-cs">
                   Audiophile: Social Platform Concept
                 </h3>
                 <!-- Button trigger AP modal -->
@@ -635,11 +813,11 @@
                     </p>
                     <h2 class="blue fs-4 text-start">Concept</h2>
                     <p class="text-start">
-                      This endeavor helped me learn more about
-                      how social media sites are put together. The mobile app is
-                      called "Audiophile", which would take inspiration from
-                      other platforms such as Reddit and Twitter. It would be a
-                      place for music-lovers to discuss different genres, share
+                      This endeavor helped me learn more about how social media
+                      sites are put together. The mobile app is called
+                      "Audiophile", which would take inspiration from other
+                      platforms such as Reddit and Twitter. It would be a place
+                      for music-lovers to discuss different genres, share
                       playlists, recommend new artists, and discuss new
                       releases. Some of the app's features would include
                       live-streaming, event-organizing, and Sub-Hubs, which are
@@ -662,26 +840,26 @@
                     </div>
                     <h2 class="blue fs-4 text-start">Imagery</h2>
                     <p class="text-start">
-                      An audiophile is someone who is
-                      enthusiastic about recording and listening to
-                      high-fidelity music. The logo I illustrated in Ibis Paint
-                      X is a stylized version of a vinyl record. This is not
-                      only a common symbol of music but also a popular listening
-                      medium among audiophiles, making it a good pick for the
-                      app's logo. The color scheme includes red because of it's
-                      symbolism of passion and excitement. These are common
-                      feelings people have when listening to and talking about
-                      their favorite music, making this color scheme really
-                      resonate with the app's users.
+                      An audiophile is someone who is enthusiastic about
+                      recording and listening to high-fidelity music. The logo I
+                      illustrated in Ibis Paint X is a stylized version of a
+                      vinyl record. This is not only a common symbol of music
+                      but also a popular listening medium among audiophiles,
+                      making it a good pick for the app's logo. The color scheme
+                      includes red because of it's symbolism of passion and
+                      excitement. These are common feelings people have when
+                      listening to and talking about their favorite music,
+                      making this color scheme really resonate with the app's
+                      users.
                     </p>
                     <h2 class="blue fs-4 text-start">Interface</h2>
                     <p class="text-start">
-                      These screens were designed in Picsart.
-                      The top app bar includes a profile button, the app logo,
-                      and a side drawer. The bottom tab bar includes buttons for
-                      the home feed, discovery page, post creation,
-                      livestreaming, and messages. The design is high contrast,
-                      which is beneficial for accessibility.
+                      These screens were designed in Picsart. The top app bar
+                      includes a profile button, the app logo, and a side
+                      drawer. The bottom tab bar includes buttons for the home
+                      feed, discovery page, post creation, livestreaming, and
+                      messages. The design is high contrast, which is beneficial
+                      for accessibility.
                     </p>
                   </div>
                   <div class="modal-footer">
@@ -702,7 +880,7 @@
       <div>
         <a
           href="#head"
-          class="mx-auto d-block text-center mt-3"
+          class="mx-auto d-block text-center mt-5"
           style="color: #000"
         >
           Back to Top</a
