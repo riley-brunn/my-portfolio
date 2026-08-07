@@ -149,11 +149,11 @@ h1 {
   margin-bottom: 1.7rem;
 }
 
-.pretty-bullets {
+/* .pretty-bullets {
   display: list-item;
   list-style-type: "✦";
   padding-inline-start: 1ch;
-}
+} */
 
 .project-title {
   margin-top: 2rem;
