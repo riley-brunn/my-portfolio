@@ -78,9 +78,9 @@ h1 {
   border: black !important;
 }
 
-/* .bull-pts {
-  list-style: square;
-} */
+.card-title {
+  margin-bottom: 1.5rem;
+}
 
 .cs-rt-img {
   border-radius: 15px;
@@ -149,11 +149,11 @@ h1 {
   margin-bottom: 1.7rem;
 }
 
-/* .pretty-bullets {
+.pretty-bullets {
   display: list-item;
   list-style-type: "✦";
   padding-inline-start: 1ch;
-} */
+}
 
 .project-title {
   margin-top: 2rem;
