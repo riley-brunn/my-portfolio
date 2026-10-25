@@ -137,6 +137,10 @@ h1 {
   color: black;
 }
 
+.no-bullets {
+  list-style-type: none;
+}
+
 .non-cs {
   margin-bottom: 1.5rem;
 }

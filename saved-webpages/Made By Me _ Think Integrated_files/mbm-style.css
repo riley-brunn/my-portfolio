@@ -1,0 +1,273 @@
+@media (max-width: 768px) {
+    .hero-btn {
+        padding-bottom: 2rem;
+    }
+    .tb-padd, footer {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}    
+
+body {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: #FDB61D !important;
+}
+
+#nav-button {
+    background-color: #DF3311 !important;
+    font-size: 1.3rem;
+}
+
+#nav-button:hover {
+    background-color: #F37023 !important;
+}
+
+#mbm-hero {
+    background-color: #FDB61D !important;
+}
+
+.bg-warning {
+    margin: 0 !important;
+    background-color: #FDB61D !important;
+}
+
+.hero-btn {
+    padding-bottom: 4rem;
+}
+
+.color-bar {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.content {
+    margin-bottom: 0 !important;
+}
+
+.gray-bg {
+    background-color: #ECECEC;
+}
+
+.padd-gif {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    margin-top: 2rem;
+} 
+
+.button {
+    background-color: #DF3311;
+    font-size: 1.7rem;
+}
+
+.button:hover {
+    background-color: #F37023 !important;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.tb-padd {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.c-tb-marg {
+    padding-top: 1.5rem;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.sticker {
+    max-height: 50%;
+    max-width: 50%;
+    padding-top: 2rem;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    margin: 1.5rem;
+}
+
+/* #EF4523 module orange */
+/* #DF3311 darker orange for video card */
+
+section:has(iframe) {
+    background-color: #FDB61D !important;
+    padding-top: 4rem;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
+section:has(address) {
+    background-color: black !important;
+    padding-top: 4rem;
+}
+
+footer {
+    background-color: black;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+footer a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer i {
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+
+
+/* Google Font classes */
+.prompt-thin {
+font-family: "Prompt", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.prompt-extralight {
+font-family: "Prompt", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.prompt-light {
+font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.prompt-regular {
+font-family: "Prompt", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.prompt-medium {
+font-family: "Prompt", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.prompt-semibold {
+font-family: "Prompt", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.prompt-bold {
+font-family: "Prompt", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.prompt-extrabold {
+font-family: "Prompt", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.prompt-black {
+font-family: "Prompt", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.prompt-thin-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.prompt-extralight-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.prompt-light-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.prompt-regular-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.prompt-medium-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.prompt-semibold-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.prompt-bold-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.prompt-extrabold-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 800;
+font-style: italic;
+}
+
+.prompt-black-italic {
+font-family: "Prompt", sans-serif;
+font-weight: 900;
+font-style: italic;
+}
